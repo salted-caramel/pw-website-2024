@@ -1,3 +1,6 @@
+import BookCover from "./components/BookCover";
+import BookLibrary from "./components/BookLibrary";
+
 export default function Home() {
-  return <h1>Hello world</h1>;
+  return <BookLibrary />;
 }
