@@ -10,7 +10,7 @@ const BookCover = ({ link, url }: Props) => {
     <a href={url}>
       <img
         src={link}
-        className="rounded-lg shadow-md transition duration-150 ease-out hover:ease-linear hover:border hover:scale-105"
+        className="rounded-lg shadow-md transition duration-150 ease-out hover:ease-linear hover:scale-105"
         alt="Book cover"
       />
     </a>
