@@ -1,0 +1,14 @@
+[
+  {
+    "title": "书剑恩仇录",
+    "url": "https://upload.wikimedia.org/wikipedia/zh/3/33/%E6%9B%B8%E5%8A%8D%E6%81%A9%E4%BB%87%E9%8C%84.jpg",
+    "stars": 5,
+    "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "title": "碧血剑",
+    "url": "https://upload.wikimedia.org/wikipedia/zh/5/52/%E7%A2%A7%E8%A1%80%E5%8A%8D.jpg",
+    "stars": 5,
+    "intro": "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife."
+  }
+]
