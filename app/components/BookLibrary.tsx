@@ -10,14 +10,9 @@ const BookLibrary = () => {
         text="书剑恩仇录 "
       />
       <BookCover
-        link="https://upload.wikimedia.org/wikipedia/zh/3/33/%E6%9B%B8%E5%8A%8D%E6%81%A9%E4%BB%87%E9%8C%84.jpg"
-        url="/shujianenchoulu"
-        text="test"
-      />
-      <BookCover
-        link="https://upload.wikimedia.org/wikipedia/zh/3/33/%E6%9B%B8%E5%8A%8D%E6%81%A9%E4%BB%87%E9%8C%84.jpg"
-        url="/shujianenchoulu"
-        text="test"
+        link="https://upload.wikimedia.org/wikipedia/zh/5/52/%E7%A2%A7%E8%A1%80%E5%8A%8D.jpg"
+        url="/bixuejian"
+        text="碧血剑"
       />
       <BookCover
         link="https://upload.wikimedia.org/wikipedia/zh/3/33/%E6%9B%B8%E5%8A%8D%E6%81%A9%E4%BB%87%E9%8C%84.jpg"
