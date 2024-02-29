@@ -1,11 +1,11 @@
 import React from "react";
 
 interface Props {
-  rating: number;
+  ratingStars: number;
 }
 
-const Rating = ({ rating }: Props) => {
-  if (rating == 1) {
+const Rating = ({ ratingStars }: Props) => {
+  if (ratingStars == 1) {
     return (
       <div className="rating">
         <input
@@ -41,7 +41,7 @@ const Rating = ({ rating }: Props) => {
         />
       </div>
     );
-  } else if (rating == 2) {
+  } else if (ratingStars == 2) {
     return (
       <div className="rating">
         <input
@@ -72,7 +72,7 @@ const Rating = ({ rating }: Props) => {
         />
       </div>
     );
-  } else if (rating == 3) {
+  } else if (ratingStars == 3) {
     return (
       <div className="rating">
         <input
@@ -103,7 +103,7 @@ const Rating = ({ rating }: Props) => {
         />
       </div>
     );
-  } else if (rating == 4) {
+  } else if (ratingStars == 4) {
     return (
       <div className="rating">
         <input
@@ -134,7 +134,7 @@ const Rating = ({ rating }: Props) => {
         />
       </div>
     );
-  } else if (rating == 5) {
+  } else if (ratingStars == 5) {
     return (
       <div className="rating">
         <input
