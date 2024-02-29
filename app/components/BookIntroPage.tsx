@@ -13,7 +13,7 @@ const BookIntroPage = ({ title, url, stars, intro }: Props) => {
   return (
     <div className="bg-zinc-900 h-screen px-8">
       <Nav />
-      <div className="flex flex-row gap-x-36">
+      <div className="flex sm:flex-row flex-col gap-x-36 gap-y-20">
         <div className="flex flex-col gap-y-4 min-w-72">
           <p className="text-2xl font-bold">{title}</p>
           <img src={url} className="rounded-lg w-72" />

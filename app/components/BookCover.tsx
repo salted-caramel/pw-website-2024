@@ -14,7 +14,7 @@ const BookCover = ({ link, url, text }: Props) => {
         <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition duration-300 ease-in-out">
           <p className="text-center text-white text-lg px-4 py-2">{text}</p>
         </div>
-        <p className="text-white text-center md:hidden block">{text}</p>
+        <p className="text-white text-center sm:hidden block">{text}</p>
       </div>
     </a>
   );
