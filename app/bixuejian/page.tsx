@@ -10,6 +10,7 @@ const bixuejian = () => {
         url={data[1].url}
         stars={data[1].stars}
         intro={data[1].intro}
+        readLink={data[1].bookLink}
       />
     </div>
   );

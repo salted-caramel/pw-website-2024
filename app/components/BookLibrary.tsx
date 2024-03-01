@@ -10,11 +10,7 @@ const BookLibrary = () => {
         url="/shujianenchoulu"
         text={data[0].title}
       />
-      <BookCover
-        link="https://upload.wikimedia.org/wikipedia/zh/5/52/%E7%A2%A7%E8%A1%80%E5%8A%8D.jpg"
-        url="/bixuejian"
-        text="碧血剑"
-      />
+      <BookCover link={data[1].url} url="/bixuejian" text={data[1].title} />
     </div>
   );
 };
