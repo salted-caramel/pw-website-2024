@@ -17,7 +17,7 @@ const BookLibrary = () => {
         <BookCover
           key={index}
           link={book.url}
-          url="/bixuejian"
+          url={book.redirect}
           text={book.title}
         />
       ))}
