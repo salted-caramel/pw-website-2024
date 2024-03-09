@@ -10,9 +10,17 @@ interface Props {
   stars: number;
   intro: string;
   readLink: string;
+  nlblink: string;
 }
 
-const BookIntroPage = ({ title, url, stars, intro, readLink }: Props) => {
+const BookIntroPage = ({
+  title,
+  url,
+  stars,
+  intro,
+  readLink,
+  nlblink,
+}: Props) => {
   return (
     <div className="bg-zinc-900 h-screen px-8">
       <Nav />
@@ -31,13 +39,18 @@ const BookIntroPage = ({ title, url, stars, intro, readLink }: Props) => {
         <div>
           <p className="text-xl">介绍</p>
           <p className="text-lg mb-10 mt-3">{intro}</p>
-          <a
-            href={readLink}
-            target="_blank"
-            className="btn btn-error float-end"
-          >
-            线上免费阅读 <FaExternalLinkAlt />
-          </a>
+          <div className="flex flex-row-reverse gap-x-4">
+            <a
+              href={readLink}
+              target="_blank"
+              className="btn btn-error float-end"
+            >
+              线上免费阅读 <FaExternalLinkAlt />
+            </a>
+            <a href={nlblink} target="_blank" className="btn btn-info">
+              NLB借阅 <FaExternalLinkAlt />
+            </a>
+          </div>
         </div>
       </div>
     </div>

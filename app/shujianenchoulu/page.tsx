@@ -10,6 +10,7 @@ const shujian = () => {
       stars={data[0].stars}
       intro={data[0].intro}
       readLink={data[0].bookLink}
+      nlblink={data[0].nlblink}
     />
   );
 };

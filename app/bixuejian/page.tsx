@@ -11,6 +11,7 @@ const bixuejian = () => {
         stars={data[1].stars}
         intro={data[1].intro}
         readLink={data[1].bookLink}
+        nlblink={data[0].nlblink}
       />
     </div>
   );
