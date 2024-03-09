@@ -1,7 +1,8 @@
+import { StaticImageData } from "next/image";
 import React from "react";
 
 interface Props {
-  image: string;
+  image: StaticImageData;
   name: string;
   isLeader?: boolean;
 }
@@ -12,7 +13,7 @@ const PersonCard = ({ image, name, isLeader = false }: Props) => {
       <figure className="mt-8">
         <div className="avatar">
           <div className="w-24 rounded-full">
-            <img src={image} />
+            <img src={image.src} />
           </div>
         </div>
       </figure>
