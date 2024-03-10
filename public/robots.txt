@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 Disallow: /private/
-Sitemap: /sitemap.xml
+Sitemap: https://pw-wuxia.vercel.app/sitemap.xml
