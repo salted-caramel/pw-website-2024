@@ -30,14 +30,14 @@ const BookIntroPage = ({
             <a href="/" className="tooltip" data-tip="返回主页">
               <FaArrowLeft className="h-6 w-6 mr-4 hover:text-slate-500 transition duration-300 ease-in-out" />
             </a>
-            <p className="text-2xl font-bold">{title}</p>
+            <h1 className="text-2xl font-bold">{title}</h1>
           </div>
 
           <img src={url} className="rounded-lg w-72" />
           <Rating ratingStars={stars} />
         </div>
         <div>
-          <p className="text-xl">介绍</p>
+          <h2 className="text-xl">介绍</h2>
           <p className="text-lg mb-10 mt-3">{intro}</p>
           <div className="flex flex-row-reverse gap-x-4">
             <a
