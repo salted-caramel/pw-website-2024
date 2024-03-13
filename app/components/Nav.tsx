@@ -27,7 +27,7 @@ const Nav = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>关于金庸</a>
+              <a href="about-author">关于金庸</a>
             </li>
             {/* <li>
               <a>Parent</a>
@@ -41,7 +41,7 @@ const Nav = () => {
               </ul>
             </li> */}
             <li>
-              <a>武侠小知识</a>
+              <a href="/facts">武侠小知识</a>
             </li>
           </ul>
         </div>
@@ -53,7 +53,7 @@ const Nav = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>关于金庸</a>
+            <a href="about-author">关于金庸</a>
           </li>
           {/* <li>
             <details>
@@ -69,7 +69,7 @@ const Nav = () => {
             </details>
           </li> */}
           <li>
-            <a>武侠小知识</a>
+            <a href="facts">武侠小知识</a>
           </li>
         </ul>
       </div>
