@@ -5,7 +5,8 @@ import PersonCard from "../components/PersonCard";
 
 import jerryImg from "../../public/images/jerry.jpg";
 import jwImg from "../../public/images/jw.jpg";
-import blankImg from "../../public/images/blankuser.png";
+import xyImg from "../../public/images/xiyuan.jpg";
+import ryImg from "../../public/images/ruiyu.jpg";
 
 const aboutus = () => {
   return (
@@ -16,8 +17,8 @@ const aboutus = () => {
         <div className="flex sm:flex-row flex-col gap-6 sm:justify-center align-center">
           <PersonCard name="李俊緯" image={jwImg} isLeader={true} />
           <PersonCard name="刘宗翰" image={jerryImg} />
-          <PersonCard name="周睿宇" image={blankImg} />
-          <PersonCard name="李熙源" image={blankImg} />
+          <PersonCard name="周睿宇" image={ryImg} />
+          <PersonCard name="李熙源" image={xyImg} />
         </div>
       </div>
     </div>
