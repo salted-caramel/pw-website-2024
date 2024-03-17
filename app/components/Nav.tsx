@@ -2,7 +2,7 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <div className="navbar">
+    <div className="navbar sticky top-0 z-10 bg-zinc-900">
       <div className="navbar-start">
         {/* Mobile */}
         <div className="dropdown">

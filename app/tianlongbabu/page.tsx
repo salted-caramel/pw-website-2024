@@ -5,12 +5,12 @@ import data from "../assets/data.json";
 const tianlongbabu = () => {
   return (
     <BookIntroPage
-      title={data[2].title}
-      url={data[2].url}
-      stars={data[2].stars}
-      intro={data[2].intro}
-      readLink={data[2].bookLink}
-      nlblink={data[2].nlblink}
+      title={data[7].title}
+      url={data[7].url}
+      stars={data[7].stars}
+      intro={data[7].intro}
+      readLink={data[7].bookLink}
+      nlblink={data[7].nlblink}
     />
   );
 };
