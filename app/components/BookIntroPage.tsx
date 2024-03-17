@@ -3,6 +3,7 @@ import { FaExternalLinkAlt, FaArrowLeft } from "react-icons/fa";
 
 import Nav from "./Nav";
 import Rating from "./Rating";
+import Footer from "./Footer";
 
 interface Props {
   title: string;
@@ -53,6 +54,7 @@ const BookIntroPage = ({
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
