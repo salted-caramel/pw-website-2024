@@ -75,14 +75,13 @@ const Nav = () => {
               武侠小知识
             </a>
           </li>
-          <li>
-            <a className="text-xl cursor-pointer text-white" href="/about-us">
-              关于我们
-            </a>
-          </li>
         </ul>
       </div>
-      {/* <div className="navbar-end"></div> */}
+      <div className="navbar-end">
+        <a className="text-xl cursor-pointer text-white" href="/about-us">
+          关于我们
+        </a>
+      </div>
     </div>
   );
 };
