@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <div className="bg-zinc-900 px-8">
+    <div className="bg-main bg-cover px-8">
       <Nav />
       <BookLibrary />
       <Footer />
