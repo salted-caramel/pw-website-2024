@@ -53,7 +53,9 @@ const Nav = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a href="about-author" className="text-white">关于金庸</a>
+            <a href="about-author" className="text-white">
+              关于金庸
+            </a>
           </li>
           {/* <li>
             <details>
@@ -69,15 +71,18 @@ const Nav = () => {
             </details>
           </li> */}
           <li>
-            <a href="facts" className="text-white">武侠小知识</a>
+            <a href="facts" className="text-white">
+              武侠小知识
+            </a>
+          </li>
+          <li>
+            <a className="text-xl cursor-pointer text-white" href="/about-us">
+              关于我们
+            </a>
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
-        <a className="text-xl cursor-pointer text-white" href="/about-us">
-          关于我们
-        </a>
-      </div>
+      {/* <div className="navbar-end"></div> */}
     </div>
   );
 };
