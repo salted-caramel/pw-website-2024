@@ -43,6 +43,9 @@ const Nav = () => {
             <li>
               <a href="/facts">武侠小知识</a>
             </li>
+            <li>
+              <a href="/about-us">关于我们</a>
+            </li>
           </ul>
         </div>
         <a className="text-xl cursor-pointer text-black" href="/">
@@ -77,8 +80,11 @@ const Nav = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
-        <a className="text-xl cursor-pointer text-black" href="/about-us">
+      <div className="hidden sm:flex sm:flex-row sm:navbar-end">
+        <a
+          href="/about-us"
+          className="text-xl cursor-pointer text-black hover:text-gray-800"
+        >
           关于我们
         </a>
       </div>
