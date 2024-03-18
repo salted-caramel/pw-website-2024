@@ -23,23 +23,23 @@ const BookIntroPage = ({
   nlblink,
 }: Props) => {
   return (
-    <div className="bg-zinc-900 h-screen px-8">
+    <div className="bg-main bg-cover h-screen px-8">
       <Nav />
       <div className="flex sm:flex-row flex-col gap-x-36 gap-y-20">
         <div className="flex flex-col gap-y-4 min-w-72">
           <div className="flex flex-row items-center">
             <a href="/" className="tooltip z-20" data-tip="返回主页">
-              <FaArrowLeft className="h-6 w-6 mr-4 hover:text-slate-500 transition duration-300 ease-in-out" />
+              <FaArrowLeft className="h-6 w-6 mr-4 hover:text-slate-500 transition duration-300 ease-in-out text-black" />
             </a>
-            <h1 className="text-2xl font-bold">{title}</h1>
+            <h1 className="text-2xl font-bold text-black">{title}</h1>
           </div>
 
           <img src={url} className="rounded-lg w-72" />
           <Rating ratingStars={stars} />
         </div>
         <div>
-          <h2 className="text-xl">介绍</h2>
-          <p className="text-lg mb-10 mt-3">{intro}</p>
+          <h2 className="text-xl text-black">介绍</h2>
+          <p className="text-lg mb-10 mt-3 text-black">{intro}</p>
           <div className="flex flex-row-reverse gap-x-4">
             <a
               href={readLink}

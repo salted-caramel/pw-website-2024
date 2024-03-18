@@ -2,7 +2,7 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <div className="navbar sticky top-0 z-10 bg-zinc-900">
+    <div className="navbar sticky top-0 z-10 bg-transparent">
       <div className="navbar-start">
         {/* Mobile */}
         <div className="dropdown">
@@ -43,9 +43,14 @@ const Nav = () => {
             <li>
               <a href="/facts">武侠小知识</a>
             </li>
+            <li>
+              <a className="text-xl cursor-pointer text-white" href="/about-us">
+                关于我们
+              </a>
+            </li>
           </ul>
         </div>
-        <a className="text-xl cursor-pointer text-white" href="/">
+        <a className="text-xl cursor-pointer text-black" href="/">
           叱咤武林
         </a>
       </div>
@@ -53,7 +58,7 @@ const Nav = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a href="about-author" className="text-white">
+            <a href="about-author" className="text-black">
               关于金庸
             </a>
           </li>
@@ -71,18 +76,20 @@ const Nav = () => {
             </details>
           </li> */}
           <li>
-            <a href="facts" className="text-white">
+            <a href="facts" className="text-black">
               武侠小知识
-            </a>
-          </li>
-          <li>
-            <a className="text-xl cursor-pointer text-white" href="/about-us">
-              关于我们
             </a>
           </li>
         </ul>
       </div>
-      {/* <div className="navbar-end"></div> */}
+      <div className="navbar-end">
+        <a
+          className="text-xl cursor-pointer text-black bg-white p-2 rounded-xl"
+          href="/about-us"
+        >
+          关于我们
+        </a>
+      </div>
     </div>
   );
 };
