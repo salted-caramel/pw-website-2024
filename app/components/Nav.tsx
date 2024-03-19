@@ -27,7 +27,14 @@ const Nav = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a href="about-author">关于金庸</a>
+              <a href="/" className="text-lg">
+                首页
+              </a>
+            </li>
+            <li>
+              <a href="about-author" className="text-lg">
+                关于金庸
+              </a>
             </li>
             {/* <li>
               <a>Parent</a>
@@ -41,13 +48,19 @@ const Nav = () => {
               </ul>
             </li> */}
             <li>
-              <a href="/facts">武侠小知识</a>
+              <a href="/facts" className="text-lg">
+                武侠小知识
+              </a>
             </li>
             <li>
-              <a href="/about-us">关于我们</a>
+              <a href="/timeline" className="text-lg">
+                时间线
+              </a>
             </li>
             <li>
-              <a href="/timeline">时间线</a>
+              <a href="/about-us" className="text-lg">
+                关于我们
+              </a>
             </li>
           </ul>
         </div>
