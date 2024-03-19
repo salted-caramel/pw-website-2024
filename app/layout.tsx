@@ -25,6 +25,21 @@ export default function RootLayout({
         <meta name="description" content="金庸武侠小说介绍" />
         <meta name="keywords" content="wuxia, pw-wuxia, pw, 武侠, 武侠小说" />
       </head>
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-BNG35Y4MNK"
+      ></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BNG35Y4MNK');
+    `,
+        }}
+      />
+
       <body className={inter.className}>{children}</body>
     </html>
   );
