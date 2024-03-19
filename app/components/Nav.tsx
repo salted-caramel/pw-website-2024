@@ -46,6 +46,9 @@ const Nav = () => {
             <li>
               <a href="/about-us">关于我们</a>
             </li>
+            <li>
+              <a href="/timeline">时间线</a>
+            </li>
           </ul>
         </div>
         <a className="text-xl cursor-pointer text-black" href="/">
@@ -76,6 +79,11 @@ const Nav = () => {
           <li>
             <a href="facts" className="text-black">
               武侠小知识
+            </a>
+          </li>
+          <li>
+            <a href="timeline" className="text-black">
+              时间线
             </a>
           </li>
         </ul>
