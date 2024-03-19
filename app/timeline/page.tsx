@@ -4,7 +4,7 @@ import Timeline from "../components/Timeline";
 
 const timeline = () => {
   return (
-    <div className="bg-main bg-cover">
+    <div className="bg-main bg-cover px-8">
       <Nav />
       <Timeline />
     </div>

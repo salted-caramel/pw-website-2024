@@ -55,9 +55,9 @@ const Timeline = () => {
           <div className="text-lg font-black text-black">iMac</div>
           <p className="text-black">
             iMac is a family of all-in-one Mac desktop computers designed and
-            built by Apple Inc. It has been the primary part of Apple's consumer
+            built by Apple Inc. It has been the primary part of Apples consumer
             desktop offerings since its debut in August 1998, and has evolved
-            through seven distinct forms{" "}
+            through seven distinct forms
           </p>
         </div>
         <hr />
@@ -114,7 +114,7 @@ const Timeline = () => {
           <div className="text-lg font-black text-black">iPhone</div>
           <p className="text-black">
             iPhone is a line of smartphones produced by Apple Inc. that use
-            Apple's own iOS mobile operating system. The first-generation iPhone
+            Apples own iOS mobile operating system. The first-generation iPhone
             was announced by then-Apple CEO Steve Jobs on January 9, 2007. Since
             then, Apple has annually released new iPhone models and iOS updates.
             As of November 1, 2018, more than 2.2 billion iPhones had been sold.
