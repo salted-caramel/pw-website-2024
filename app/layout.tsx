@@ -24,6 +24,7 @@ export default function RootLayout({
         <meta name="robots" content="all" />
         <meta name="description" content="金庸武侠小说介绍" />
         <meta name="keywords" content="wuxia, pw-wuxia, pw, 武侠, 武侠小说" />
+        <link rel="canonical" href="https://pw-wuxia.vercel.app/" />
       </head>
       <script
         async
