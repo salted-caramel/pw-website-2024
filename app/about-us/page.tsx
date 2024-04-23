@@ -10,10 +10,10 @@ import ryImg from "../../public/images/ruiyu.jpg";
 
 const aboutus = () => {
   return (
-    <div className="bg-zinc-900 h-screen px-8">
+    <div className="bg-main bg-cover h-screen px-8">
       <Nav />
       <div>
-        <p className="text-3xl">我们的组员</p>
+        <p className="text-3xl text-black">我们的组员</p>
         <div className="flex sm:flex-row flex-col gap-6 sm:justify-center align-center">
           <PersonCard name="李俊緯" image={jwImg} isLeader={true} />
           <PersonCard name="刘宗翰" image={jerryImg} />

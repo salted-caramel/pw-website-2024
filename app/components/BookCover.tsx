@@ -20,7 +20,7 @@ const BookCover = ({ link, url, text }: Props) => {
             {text}
           </p>
         </div>
-        <p className="text-white text-center sm:hidden block text-xl mt-1">
+        <p className="text-black text-center sm:hidden block text-xl mt-1">
           {text}
         </p>
       </div>
