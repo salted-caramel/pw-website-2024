@@ -22,7 +22,7 @@ const Nav = () => {
 
   return (
     <div
-      className={`navbar sticky top-0 z-10 bg-transparent duration-300 px-8 ${
+      className={`navbar sticky top-0 z-10 duration-300 px-8 ${
         isScrolled ? "bg-gray-300 shadow-md" : "bg-transparent"
       }`}
     >
