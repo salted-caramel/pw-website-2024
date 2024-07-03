@@ -1,8 +1,31 @@
+"use client";
 import React from "react";
+import { useState, useEffect } from "react";
 
 const Nav = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="navbar sticky top-0 z-10 bg-transparent">
+    <div
+      className={`navbar sticky top-0 z-10 bg-transparent duration-300 px-8 ${
+        isScrolled ? "bg-gray-200 shadow-md" : "bg-transparent"
+      }`}
+    >
       <div className="navbar-start">
         {/* Mobile */}
         <div className="dropdown">
@@ -58,6 +81,11 @@ const Nav = () => {
               </a>
             </li>
             <li>
+              <a href="/game" className="text-lg">
+                游戏辅助
+              </a>
+            </li>
+            <li>
               <a href="/about-us" className="text-lg">
                 关于我们
               </a>
@@ -97,6 +125,11 @@ const Nav = () => {
           <li>
             <a href="timeline" className="text-black">
               时间线
+            </a>
+          </li>
+          <li>
+            <a href="game" className="text-black">
+              游戏辅助
             </a>
           </li>
         </ul>
