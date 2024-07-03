@@ -25,22 +25,21 @@ export default function RootLayout({
         <meta name="description" content="金庸武侠小说介绍" />
         <meta name="keywords" content="wuxia, pw-wuxia, pw, 武侠, 武侠小说" />
         <link rel="canonical" href="https://pw-wuxia.vercel.app/" />
-      </head>
-      <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-BNG35Y4MNK"
-      ></script>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-BNG35Y4MNK"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-BNG35Y4MNK');
     `,
-        }}
-      />
-
+          }}
+        />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
