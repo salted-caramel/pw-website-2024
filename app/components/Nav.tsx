@@ -23,7 +23,7 @@ const Nav = () => {
   return (
     <div
       className={`navbar sticky top-0 z-10 bg-transparent duration-300 px-8 ${
-        isScrolled ? "bg-custom-nav shadow-md" : "bg-transparent"
+        isScrolled ? "bg-gray-200 shadow-md" : "bg-transparent"
       }`}
     >
       <div className="navbar-start">
