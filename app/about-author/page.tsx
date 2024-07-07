@@ -143,7 +143,7 @@ const AboutJinYong = () => {
               </div>
               <div className="timeline-end timeline-box">
                 法国政府授予的“荣誉军团骑士勋章” (Chevalier de la Légion
-                d'Honneur)。
+                d&apos;Honneur)。
               </div>
               <hr />
             </li>
@@ -165,8 +165,8 @@ const AboutJinYong = () => {
                 </svg>
               </div>
               <div className="timeline-end timeline-box">
-                法国政府授予的“艺术与文学骑士勋章” (Commandeur de l'Ordre des
-                Arts et des Lettres)。
+                法国政府授予的“艺术与文学骑士勋章” (Commandeur de l&apos;Ordre
+                des Arts et des Lettres)。
               </div>
               <hr />
             </li>
