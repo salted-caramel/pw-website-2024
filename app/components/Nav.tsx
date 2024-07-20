@@ -81,7 +81,7 @@ const Nav = () => {
               </a>
             </li>
             <li>
-              <a href="/game" className="text-lg">
+              <a href="/" className="text-lg">
                 游戏辅助
               </a>
             </li>
@@ -128,7 +128,7 @@ const Nav = () => {
             </a>
           </li>
           <li>
-            <a href="game" className="text-black">
+            <a href="" className="text-black">
               游戏辅助
             </a>
           </li>
