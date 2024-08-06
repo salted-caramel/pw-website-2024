@@ -38,8 +38,8 @@ const BookIntroPage = ({
           <Rating ratingStars={stars} />
         </div>
         <div>
-          <h2 className="text-xl text-black">介绍</h2>
-          <p className="text-lg mb-10 mt-3 text-black">{intro}</p>
+          <h2 className="text-2xl text-black">介绍</h2>
+          <p className="text-xl mb-10 mt-3 text-black">{intro}</p>
           <div className="flex flex-row-reverse gap-x-4">
             <a
               href={readLink}

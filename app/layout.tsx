@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Ma_Shan_Zheng } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const ma_Shan_Zheng = Ma_Shan_Zheng({
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "叱咤武林 - 金庸武侠小说介绍",
@@ -40,7 +44,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={ma_Shan_Zheng.className}>{children}</body>
     </html>
   );
 }

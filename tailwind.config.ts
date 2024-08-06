@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        base: "1.5rem",
+      },
       colors: {
         "custom-nav": "#b6becc",
       },
