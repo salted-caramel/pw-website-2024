@@ -68,6 +68,11 @@ const Vlog: FC = () => {
       url: "https://drive.google.com/file/d/1BaCK3-qa1Ab5YWo3I-EvqCkvXQMhopYe/preview",
       date: "8月3日",
     },
+    {
+      title: "倚天剑 故事情节 第三部分",
+      url: "https://drive.google.com/file/d/1UmiTK16YnWcGyhJDOP0ItYiG4AYRMQZp/preview",
+      date: "8月5日",
+    },
   ];
 
   return (
