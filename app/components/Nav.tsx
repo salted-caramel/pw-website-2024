@@ -128,6 +128,11 @@ const Nav = () => {
             </a>
           </li>
           <li>
+            <a href="vlog" className="text-black">
+              视频
+            </a>
+          </li>
+          <li>
             <a href="game" className="text-black">
               游戏辅助
             </a>
